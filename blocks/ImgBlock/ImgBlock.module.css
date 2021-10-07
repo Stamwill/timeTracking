@@ -1,0 +1,12 @@
+.imgBanner {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  top: 10px;
+  padding-right: 20px;
+  z-index: 1;
+  height: 45px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  color: white;
+}

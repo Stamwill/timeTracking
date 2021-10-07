@@ -1,0 +1,19 @@
+.imgBlock {
+  position: relative;
+  top: 35px;
+  height: 45px;
+  background-color: red;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.infoBlock {
+  position: relative;
+  z-index: 5;
+  height: 100px;
+  width: 200px;
+  background-color: hsl(235, 46%, 20%);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 15px;
+}

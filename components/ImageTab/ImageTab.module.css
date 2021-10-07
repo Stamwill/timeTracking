@@ -1,0 +1,9 @@
+.imgBlock {
+  position: relative;
+  top: 15px;
+  z-index: 1;
+  height: 45px;
+  /* background-color: hsl(15, 100%, 70%); */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
