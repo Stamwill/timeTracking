@@ -44,16 +44,6 @@ const TimeBlock = React.forwardRef(function TimeBlock(props, ref) {
 
   console.log(status);
 
-  // const Time = () => {
-  //   if (day) {
-  //     console.log(status.timeframes.daily.current);
-  //   } else if (week) {
-  //     return status.timeframes.weekly.current;
-  //   } else if (month) {
-  //     return status.timeframes.monthly.current;
-  //   }
-  // };
-
   return (
     <div className={classes.root} ref={ref} {...other}>
       <div className={classes.container}>
