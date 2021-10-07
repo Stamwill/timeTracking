@@ -1,3 +1,1 @@
-
-
-![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
+A fun little time tracking app with set data, swaps between daily, monthly and weekly!
