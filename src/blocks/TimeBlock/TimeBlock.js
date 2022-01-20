@@ -70,17 +70,17 @@ const TimeBlock = React.forwardRef(function TimeBlock(props, ref) {
 
               <div className={classes.timeContainer}>
                 <p className={classes.currentTime}>
-                  {day === true ? data.timeframes.daily.current : ""}
-                  {week === true ? data.timeframes.weekly.current : ""}
-                  {month === true ? data.timeframes.monthly.current : ""}
+                  {day ? data.timeframes.daily.current : ""}
+                  {week ? data.timeframes.weekly.current : ""}
+                  {month ? data.timeframes.monthly.current : ""}
                   hrs
                 </p>
 
                 <p className={classes.previousTime}>
                   Last week <span>- </span>
-                  {day === true ? data.timeframes.daily.previous : ""}
-                  {week === true ? data.timeframes.weekly.previous : ""}
-                  {month === true ? data.timeframes.monthly.previous : ""}
+                  {day ? data.timeframes.daily.previous : ""}
+                  {week ? data.timeframes.weekly.previous : ""}
+                  {month ? data.timeframes.monthly.previous : ""}
                 </p>
               </div>
             </div>

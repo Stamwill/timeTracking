@@ -2,7 +2,7 @@
   {
     "title": "Work",
     "color": "hsl(15, 100%, 70%)",
-    "logo": "/_next/static/image/images/icon-work.a3f124e593ab45ba795f6a068fe710ce.svg", 
+    "logo": "/src/images/icon-work.svg", 
     "timeframes": {
       "daily": {
         "current": 5,
